@@ -1,4 +1,5 @@
 import { Navbar, Main, Product, Footer } from "../components";
+import LoadingDialog from "../components/LoadingDialog";
 
 function Home() {
   return (
@@ -7,6 +8,7 @@ function Home() {
       <Main />
       <Product />
       <Footer />
+      <LoadingDialog />
     </>
   )
 }
